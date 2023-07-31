@@ -1,0 +1,35 @@
+<html >
+<head>
+  <title>DDoS Attack</title>  
+</head>
+
+<body style="background-color:green;">
+ <div>
+	<h1>Predict the DDoS Attack (GRU Model - Mukul Chavan)</h1>
+    Protocol: <br>
+    <select name="protocol">
+    <option value="TCP">TCP</option>
+    <option value="UDP">UDP</option>
+    <option value="HTTP">HTTP</option>
+  </select><br>
+    Source Address: <br>
+    <input type="text" name="src" placeholder="Source Address" required="required" /><br>
+    Destination Address: <br>
+    <input type="text" name="dst" placeholder="Destination Address" required="required" /><br>
+    <form action="{{ url_for('getprediction')}}"method="post">
+	<label for="time">Time: </label><br>
+    	<input type="text" name="time" placeholder="Time" required="required" /><br>
+	<label for="length">Length: </label><br>    
+	<input type="text" name="length" placeholder="Length" required="required" /><br><br>
+        <button type="submit" class="btn btn-primary btn-block btn-large">getprediction</button>
+    </form>
+
+   <br>
+   <br>
+   {{ output }}
+
+ </div>
+
+
+</body>
+</html>
