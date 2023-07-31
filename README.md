@@ -8,5 +8,15 @@ The experimental setup for detecting DDoS attacks using deep learning algorithms
 4) Model training: Various deep learning models, such as ANN, RNN, LSTM, GRU, etc., are trained using the training data. The hyperparameters of the models are tuned using the validation set to optimize the performance of the models.<br>
 5) Model evaluation: The trained models are evaluated using the test set to measure their performance in detecting DDoS attacks. Various performance metrics, such as accuracy, precision, recall, F1 score, ROC-AUC, etc., are used to evaluate the models.<br>
 6) Comparison: The performance of different deep learning models is compared to select the best-performing model(s) for detecting DDoS attacks.<br>
-7) Deployment: The selected deep learning model(s) are deployed in a production environment to detect DDoS attacks in real-time. The model(s) may require periodic retraining to adapt to changing network traffic patterns and new attack vectors.
+7) Deployment: The selected deep learning model(s) are deployed and integrated with Flask API hosted using ngrok to detect DDoS attacks in real-time.
 
+# High-Level Diagrams
+![Screenshot 2023-07-31 185422](https://github.com/shriyanshsinha9/AttackGuard/assets/126511293/bbfb6e2f-f85c-4bbe-b76a-c831990ee79a)
+<br>
+
+![Screenshot 2023-07-31 185453](https://github.com/shriyanshsinha9/AttackGuard/assets/126511293/c388816e-9767-4638-83e0-2d5763684973)
+<br>
+![Screenshot 2023-07-31 185513](https://github.com/shriyanshsinha9/AttackGuard/assets/126511293/b09044b6-114b-420b-9945-e69b28373c9c)
+<br>
+# Output
+![Screenshot 2023-07-31 174614](https://github.com/shriyanshsinha9/AttackGuard/assets/126511293/1f7e00b3-a2be-4b73-a1ce-5810b387424d)
