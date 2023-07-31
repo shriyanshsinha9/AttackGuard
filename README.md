@@ -1,8 +1,8 @@
 # AttackGuard
-Detection of DDoS Attacks Using ML Techniques &amp; Deep Learning Algorithms
+AttackGuard is an API-based detection of DDoS Attacks Using ML Techniques &amp; Deep Learning Algorithms
 # Stages
 The experimental setup for detecting DDoS attacks using deep learning algorithms typically involves the following stages:<br>
-1) Data collection: Network traffic data is collected from the server(s) that are being monitored for DDoS attacks.<br>
+1) Data collection: Network traffic data is collected from the server(s) that are being monitored for DDoS attacks. Wireshark is used to capture the data and export it to a CSV file. Low Orbit Ion Canon tool is used to generate attacks on target IP's and machines. <br>
 2) Data pre-processing: The collected data is pre-processed to remove any noise, irrelevant information, or duplicates. This step also involves feature selection and extraction, where essential features are selected for training the deep learning models.<br>
 3) Data splitting: The pre-processed data is split into training, validation, and test sets. The training set is used to train the deep learning models, the validation set is used to tune hyperparameters and prevent overfitting, and the test set is used to evaluate the performance of the trained models.<br>
 4) Model training: Various deep learning models, such as ANN, RNN, LSTM, GRU, etc., are trained using the training data. The hyperparameters of the models are tuned using the validation set to optimize the performance of the models.<br>
